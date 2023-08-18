@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            display: inline-block;
+            font-family: sans-serif;
+            color: pink;
+            font-weight: 900;
+        }
+        h3 {
+            margin: 0;
+            font-family: sans-serif;
+            color: rgb(42, 42, 42);
+        }
+        h2 {
+            margin: 0;
+            font-family: sans-serif;
+            color: rgb(158, 99, 112);
+            font-size: 12px;
+        }
+        .sequence {
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+            border-bottom-color: pink;
+        }
+        .sequence2 {
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+            border-bottom-color: pink;
+        }
+        .sequence3 {
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+            border-bottom-color: pink;
+        }
+        .osc1Controls {
+            margin-top: 12px;
+            width: 200px;
+            border-right-style: solid;
+            border-right-width: 1px;
+        }
+        .osc2Controls {
+            margin-top: 12px;
+            width: 200px;
+            border-right-style: solid;
+            border-right-width: 1px;
+            margin-left: 12px;
+        }
+        .osc3Controls {
+            margin-top: 12px;
+            width: 200px;
+            border-right-style: solid;
+            border-right-width: 1px;
+            margin-left: 12px;
+        }
+        .wavChoices {
+            display: flex;
+        }
+        .controls {
+            display: flex;
+        }
+        li {
+            font-size: 12px;
+            color: rgb(151, 151, 151);
+        }
+    </style>
+</head>
+<body>
+    <h3>SOPH-100</h3>
+    OSC1
+    <div class="sequence">
+
+    </div>
+    OSC2
+    <div class="sequence2">
+
+    </div>
+    OSC3
+    <div class="sequence3">
+
+    </div>
+    <div class="controls">
+        <div class="osc1Controls">
+            <h2>Osc1</h2>
+            <div class="waveChoices">
+                <label for="txtWave">Wave: </label>
+                <input type="text" id="txtWaveOsc1">
+                <ul>
+                    <li>sine</li>
+                    <li>sawtooth</li>
+                    <li>square</li>
+                    <li>triangle</li>
+                </ul>
+                <label for="txtWave">Num of Notes: </label>
+                <input type="number" id="txtNumNotesOsc1">
+                <label for="txtWave">Freq Ceiling: </label>
+                <input type="number" id="txtFreqCeilingOsc1">
+                <label for="txtWave">Rate: </label>
+                <input type="number" id="txtOsc1Rate">
+                <label for="txtWave">Env: </label>
+                <input type="number" id="txtOsc1Life">
+            </div>
+        </div>
+        <div class="osc2Controls">
+            <h2>Osc2</h2>
+            <div class="waveChoices">
+                <label for="txtWaveOsc2">Wave: </label>
+                <input type="text" id="txtWaveOsc2">
+                <ul>
+                    <li>sine</li>
+                    <li>sawtooth</li>
+                    <li>square</li>
+                    <li>triangle</li>
+                </ul>
+                <label for="txtWave">Num of Notes: </label>
+                <input type="number" id="txtNumNotesOsc2">
+                <label for="txtWave">Freq Ceiling: </label>
+                <input type="number" id="txtFreqCeilingOsc2">
+                <label for="txtWave">Rate: </label>
+                <input type="number" id="txtOsc2Rate">
+                <label for="txtWave">Env: </label>
+                <input type="number" id="txtOsc2Life">
+            </div>
+        </div>     
+        <div class="osc3Controls">
+            <h2>Osc3</h2>
+            <div class="waveChoices">
+                <label for="txtWaveOsc3">Wave: </label>
+                <input type="text" id="txtWaveOsc3">
+                <ul>
+                    <li>sine</li>
+                    <li>sawtooth</li>
+                    <li>square</li>
+                    <li>triangle</li>
+                </ul>
+                <label for="txtWave">Num of Notes: </label>
+                <input type="number" id="txtNumNotesOsc3">
+                <label for="txtWave">Freq Ceiling: </label>
+                <input type="number" id="txtFreqCeilingOsc3">
+                <label for="txtWave">Rate: </label>
+                <input type="number" id="txtOsc3Rate">
+                <label for="txtWave">Env: </label>
+                <input type="number" id="txtOsc3Life">
+            </div>
+        </div>   
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
